@@ -14,9 +14,6 @@ from graphql import GraphQLResolveInfo, GraphQLSchema
 from graphql.execution.execute import get_field_def
 from graphene_django.registry import get_global_registry
 from graphql.language import ast
-from graphql.execution.base import (
-    get_field_def,
-)
 from graphql.language.ast import (
     FragmentSpreadNode,
     InlineFragmentNode,
