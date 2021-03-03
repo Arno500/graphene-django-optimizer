@@ -10,7 +10,7 @@ from graphene.types.generic import GenericScalar
 from graphene.types.resolver import default_resolver
 from graphene.utils.str_converters import to_camel_case
 from graphene_django import DjangoObjectType
-from graphql import GraphQLResolveInfo, GraphQLSchema, ResolveInfo
+from graphql import GraphQLResolveInfo, GraphQLSchema
 from graphql.execution.execute import get_field_def
 from graphene_django.registry import get_global_registry
 from graphql.language import ast
